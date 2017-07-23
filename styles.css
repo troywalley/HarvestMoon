@@ -93,6 +93,7 @@
   margin-right:auto;
   background-image: url('img/17098570_258017771318143_5889089740909049374_n(1).jpeg');
   background-size:100% 100%;
+  border:.25vw solid black;
 }
 .logo{
   width:12vw;
@@ -104,9 +105,33 @@
   background-size:100% 100%;
   /*background-position:0 -2vw;*/
 }
+.appointment{
+  position:absolute;
+  font-family:"Open Sans", sans-serif;
+  font-size: 1vw;
+  width:11vw;
+  left:1vw;
+  top:1.5vw;
+}
+.motto1{
+  position:absolute;
+  width:10vw;
+  font-size:1.75vw;
+  left:35vw;
+  top:5vw;
+  font-family: "Brush Script Std", "Brush Script MT", cursive;
+}
+.motto2{
+  position:absolute;
+  width:10vw;
+  font-size:1.75vw;
+  left:59vw;
+  top:5vw;
+  font-family: "Brush Script Std", "Brush Script MT", cursive;
+}
 .home-content-container{
   height:30vw;
-  width:65vw;
+  width:75vw;
   margin-left:auto;
   margin-right:auto;
   font-size:0px;
@@ -192,15 +217,26 @@
   font-size:25px;
 }
 .facebook-icon{
-  height:2vw;
-  width:2vw;
+  height:3vw;
+  width:3vw;
   background-color:white;
   border-radius:10%;
-  float:right;
-  margin-right:5vw;
-  margin-top:5px;
+
+  margin:3vw auto;
   background-image:url('img/fb-icon.png');
   background-size:100% 100%;
+}
+.yelp-icon{
+  height:3vw;
+  width:3vw;
+  background-color:white;
+  border-radius:10%;
+
+  margin:3vw auto;
+  background-image:url('img/yelp-icon.png');
+  background-size:125% 125%;
+  background-repeat: no-repeat;
+  background-position: -.30vw -.22vw;
 }
 .display-line{
   display:block;
@@ -302,16 +338,91 @@
 .circles_row_1{
   display:flex;
   justify-content: space-around;
-  width:65vw;
+  width:75vw;
 }
 .circles_row_2{
   display:flex;
   justify-content: space-around;
-  width:65vw;
+  width:75vw;
 }
 .mani_pedi{
-  background-image:url('img/pedi.jpg');
+  background-image:url('img/pedi1.jpg');
   background-size:160% 150%;
   background-position: 0vw -2.65vw;
   transform: rotate(7deg)
+}
+.plaque{
+  position : relative;
+    width    : 0;
+    height   : 0;
+    z-index  : 99;
+    left:2.5vw;
+    border-left   : 7vw solid transparent;
+    border-right  : 7vw solid transparent;
+    border-bottom : 7vw solid black;
+}
+.inner-plaque{
+  position : relative;
+     top      : 7vw;
+     left     : 2.75vw;
+     width    : 0;
+     height   : 0;
+     z-index  : 100;
+
+     border-left   : 6.75vw solid transparent;
+     border-right  : 6.75vw solid transparent;
+     border-bottom : 6.75vw solid white;
+}
+.hanging{
+  width:20vw;
+  height:auto;
+
+
+}
+.hanging-square{
+  position:relative;
+  z-index: 101;
+  top:-.25vw;
+  left:.5vw;
+  width:18.5vw;
+  height:22vw;
+  border:.25vw solid black;
+  background-color:rgba(0,0,0,0.77);
+}
+.hanging-square h3{
+  font-size: 1.5vw;
+  text-align: center;
+  color:white;
+  text-decoration: underline;
+  font-family:"Open Sans", sans-serif;
+}
+.hanging-square p{
+  font-size: 1.25vw;
+  padding-left: 1.5vw;
+  color:white;
+  font-family:"Open Sans", sans-serif;
+}
+.nail{
+  width:.5vw;
+  height:.5vw;
+  position:relative;
+  border-radius: 50%;
+  background-color:black;
+  top:7vw;
+  left:9.24vw;
+}
+.hangings{
+  display:flex;
+  justify-content: space-between;
+  width:80vw;
+  padding-top:10vw;
+  margin:0 auto;
+  padding-left:1.5vw;
+}
+.footer{
+  width:80vw;
+  height:20vw;
+  border:.25vw solid black;
+  margin:5vw auto;
+  background-color:rgba(0,0,0,0.77);
 }
