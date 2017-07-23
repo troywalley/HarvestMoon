@@ -1,4 +1,5 @@
 var home=document.getElementById("home")
+var hero=document.getElementsByClassName("hero-image")[0];
 var gallery=document.getElementById("gallery")
 var contact=document.getElementById("contact")
 var services=document.getElementById("services")
