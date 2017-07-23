@@ -352,6 +352,31 @@
   background-position: 0vw -2.65vw;
   transform: rotate(7deg)
 }
+.products{
+  background-image:url('img/products1.jpg');
+  background-size:100% 100%;
+  color:white;
+}
+.eyelash{
+  background-image:url('img/eyelash-extensions1.jpg');
+  background-size:100% 100%;
+  color:white;
+}
+.waxing{
+  background-image:url('img/waxing1.jpg');
+  background-size:100% 100%;
+  color:white;
+}
+.alacarte{
+  background-image:url('img/alacarte.jpg');
+  background-size:100% 100%;
+  color:white;
+}
+.dollar{
+  background-image:url('img/dollar1.jpg');
+  background-size:100% 100%;
+  color:white;
+}
 .plaque{
   position : relative;
     width    : 0;
