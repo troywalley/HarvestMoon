@@ -116,7 +116,7 @@
 }
 .motto1{
   position:absolute;
-  width:10vw;
+  width:auto;
   font-size:1.75vw;
   left:35vw;
   top:5vw;
@@ -124,7 +124,7 @@
 }
 .motto2{
   position:absolute;
-  width:10vw;
+  width:auto;
   font-size:1.75vw;
   left:59vw;
   top:5vw;
